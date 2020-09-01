@@ -8,14 +8,14 @@
 <script>
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue'
-const { remote } = window.require('electron')
+import electron from 'electron'
 export default {
   name: 'Home',
   components: {
     HelloWorld
   },
   mounted () {
-    console.log('remote', remote)
+    console.log('electron', electron)
   }
 }
 </script>

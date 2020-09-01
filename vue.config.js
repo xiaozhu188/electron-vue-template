@@ -79,6 +79,7 @@ module.exports = {
     pluginOptions: {
         // vue-cli-plugin-electron-builder配置
         electronBuilder: {
+            nodeIntegration: true,
             builderOptions: {
                 win: {
                     icon: 'build/electron-icon/icon.ico',
