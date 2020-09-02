@@ -12,7 +12,8 @@
     "postuninstall": "electron-builder install-app-deps",
     "patch": "npm version patch && git push origin master && git push origin --tags",
     "minor": "npm version minor && git push origin master && git push origin --tags",
-    "major": "npm version major && git push origin master && git push origin --tags"
+    "major": "npm version major && git push origin master && git push origin --tags",
+    "release": "vue-cli-service electron:build"
   },
   "dependencies": {
     "axios": "^0.19.0",
